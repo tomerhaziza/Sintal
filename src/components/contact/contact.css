@@ -1,0 +1,106 @@
+.contact{
+    background: url('http://34.65.52.225:3001/uploads/sintal-images/2836852.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.contact .form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3%;
+    padding: 35px 80px;
+    width: 100%;
+    max-width: 550px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.contact .form p:not(.required-hint){
+    text-align: center;
+}
+
+.contact  input, textarea{
+    height: 35px;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.contact textarea{
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.contact button{
+    margin-top: 10px;
+    padding: 13px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.05rem;
+}
+
+.contact .form h1{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.contact .contant-info{
+    padding-bottom: 25px;
+}
+
+.contact .form .form-info{
+    padding: 25px 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.submitted-form{
+    padding: 70px 0 50px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.form-load{
+    padding: 45px 0 25px;
+}
+
+.error-message{
+    padding-bottom: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.required-hint{
+    font-size: 0.8rem;
+    padding: 3px 0 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    .contact .form{
+        padding: 35px 5%;
+    }
+
+    .submitted-form{
+        font-size: 1.4rem;
+    }
+}

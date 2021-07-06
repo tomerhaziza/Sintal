@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.hashtag{
+    font-weight: bold;
+    direction: ltr;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+
+.bottom-footer{
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    direction: ltr;
+}
+
+.footer .back-to-top{
+    font-weight: bold;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.footer p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer p:not(.hashtag, .bottom-footer p){
+        font-size: 0.85rem;
+    }
+
+    .bottom-footer p{
+        font-size: 0.73rem;
+    }
+}

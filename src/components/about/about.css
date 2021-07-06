@@ -1,0 +1,36 @@
+.about{
+    padding: 120px 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about div{
+    align-self: flex-start;
+}
+
+.about h1{
+    font-size: 1.9rem;
+    padding-bottom: 10px;
+}
+.about img{
+    max-width: 230px;
+    max-height: 230px;
+    margin-right: 35px;
+}
+
+@media only screen and (max-width: 700px) {
+    .about {
+        flex-direction: column;
+        align-items:unset;
+        justify-content: unset;
+        padding:50px 7%;
+    }
+
+    .about img{
+        margin: 50px auto 0;
+        max-height: 200px;
+        max-width: 200px;
+    }
+  }

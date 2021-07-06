@@ -1,0 +1,9 @@
+.hr-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.hr{
+    border-top: 2px black solid;
+    margin: 5px 40%;
+}
