@@ -1,8 +1,8 @@
 import React from 'react';
-import Scrolldown from '../../scroll-down/scroll-down';
+import Scrolldown from '../scroll-down/scroll-down';
 import './header.css';
 import { Link } from 'react-scroll'
-import Navbar from '../../navbar/navbar';
+import Navbar from '../navbar/navbar';
 
 
 function Header() {
